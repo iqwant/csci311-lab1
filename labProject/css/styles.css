@@ -169,13 +169,14 @@ color: #444;
 font-family: 'Lobster';
 }
 
-.featured span {
+.featured .steps {
 font-size: 16px;
 text-align: justify;
 text-justify: inter-word;
+line-height: 1.6;
 }
 
-.featured span a:link, a:visited {
+.featured .steps a:link, a:visited {
   background-color: #cccccc;
   color: black;
   padding: 10px 20px;
@@ -185,7 +186,7 @@ text-justify: inter-word;
   border-radius: 5px;
 }
 
-.featured span a:hover {
+.featured .steps a:hover {
   background-color: #a6a6a6;
   font-weight: bold;
 }

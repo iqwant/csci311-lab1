@@ -8,6 +8,7 @@
   text-align: center;
   font-family: Helvetica, sans-serif;  
   font-size: 15px;
+ 
 }
 
 .footer a:link {
@@ -34,6 +35,10 @@ h5 {
  display: flex;
 }
 
+.vertical a {
+  display: block;
+  line-height: 1.6;
+}
 .footer .flex-container > div{
  margin-right:40px;
  padding: 50px;
@@ -43,6 +48,11 @@ h5 {
  padding-top:10px;
   width:20px;
   height:20px;
+ 
+}
+
+.email, .vertical a{
+  color: white;
 }
 
 
