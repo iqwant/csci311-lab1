@@ -1,0 +1,27 @@
+.header {
+  padding: 30px;
+  text-align: center;
+  background: #c572fd;
+  color: #9569fd;
+  font-family: 'Lobster';
+  font-size: 24px;
+  text-shadow: -4px 2px #a4b4fd;
+}
+.navbar b{
+  display: flex;
+  justify-content: flex-start;
+  background-color: #333;
+  color: #ffffff;
+}
+
+.navbar a{
+  color:#ffffff;
+  text-align: center;
+  padding: 10px 15px;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
